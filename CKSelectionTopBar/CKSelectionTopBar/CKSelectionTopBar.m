@@ -6,7 +6,6 @@
 //
 
 #import "CKSelectionTopBar.h"
-#import "DKNightVersion.h"
 #import "Masonry.h"
 #import "YYKit.h"
 #import "CKSelectionTopBarCell.h"
@@ -49,13 +48,7 @@
     _nightColor = [UIColor colorWithHexString:@"9b9b9b"];
     _selectedColor = [UIColor colorWithHexString:@"#2e9fff"];
     _selectedNightColor = [UIColor colorWithHexString:@"#265f8f"];
-    
-    self.dk_backgroundColorPicker = ^UIColor *(DKThemeVersion *themeVersion) {
-        if ([themeVersion isEqualToString:DKThemeVersionNormal]) {
-            return [UIColor colorWithHexString:@"#ffffff"];
-        }
-        return [UIColor colorWithHexString:@"#2c2c2c"];
-    };
+    self.backgroundColor = [UIColor whiteColor];
     
     _font = [UIFont systemFontOfSize:14];
     UICollectionViewFlowLayout * layout = [[UICollectionViewFlowLayout alloc]init];
@@ -75,13 +68,8 @@
     [self addSubview:_collectionView];
     
     _link = [[UIView alloc] init];
-    _link.dk_backgroundColorPicker = ^UIColor *(DKThemeVersion *themeVersion) {
-        if ([themeVersion isEqualToString:DKThemeVersionNormal]) {
-            return [UIColor colorWithHexString:@"#ebebeb"];
-        } else {
-            return [UIColor colorWithHexString:@"#1f1f1f"];
-        }
-    };
+    _link.backgroundColor = [UIColor colorWithHexString:@"#ebebeb"];
+
     [self addSubview:_link];
     [_link mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.and.bottom.and.right.mas_equalTo(0);

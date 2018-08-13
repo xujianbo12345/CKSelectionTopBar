@@ -6,8 +6,8 @@
 //
 
 #import "CKSelectionTopBarCell.h"
+#import "UIColor+CKSelectionAssist.h"
 #import "Masonry.h"
-#import "YYKit.h"
 
 @interface CKSelectionTopBarCell()
 

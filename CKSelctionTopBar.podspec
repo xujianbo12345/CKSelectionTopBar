@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CKSelctionTopBar"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "标题选择栏"
 
   # This description is used to generate tags and improve search results.
@@ -132,7 +132,6 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-    s.dependency 'YYKit'
     s.dependency 'Masonry'
 
 end

@@ -16,6 +16,7 @@
 		9F4B3182211D8FBB00E2903C /* CKSelectionTopBarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B317F211D8FBB00E2903C /* CKSelectionTopBarCell.m */; };
 		9F4B3183211D8FBB00E2903C /* CKSelectionTopBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B3180211D8FBB00E2903C /* CKSelectionTopBarItem.m */; };
 		9F4B3184211D8FBB00E2903C /* CKSelectionTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B3181211D8FBB00E2903C /* CKSelectionTopBar.m */; };
+		9FF199A82121885000982697 /* UIColor+CKSelectionAssist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF199A72121885000982697 /* UIColor+CKSelectionAssist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		9F4B317F211D8FBB00E2903C /* CKSelectionTopBarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSelectionTopBarCell.m; sourceTree = "<group>"; };
 		9F4B3180211D8FBB00E2903C /* CKSelectionTopBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSelectionTopBarItem.m; sourceTree = "<group>"; };
 		9F4B3181211D8FBB00E2903C /* CKSelectionTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSelectionTopBar.m; sourceTree = "<group>"; };
+		9FF199A62121885000982697 /* UIColor+CKSelectionAssist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CKSelectionAssist.h"; sourceTree = "<group>"; };
+		9FF199A72121885000982697 /* UIColor+CKSelectionAssist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CKSelectionAssist.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		9F4B317B211D8FBB00E2903C /* CKSelectionTopBar */ = {
 			isa = PBXGroup;
 			children = (
+				9FF199A62121885000982697 /* UIColor+CKSelectionAssist.h */,
+				9FF199A72121885000982697 /* UIColor+CKSelectionAssist.m */,
 				9F4B317C211D8FBB00E2903C /* CKSelectionTopBarItem.h */,
 				9F4B3180211D8FBB00E2903C /* CKSelectionTopBarItem.m */,
 				9F4B317D211D8FBB00E2903C /* CKSelectionTopBarCell.h */,
@@ -170,6 +175,7 @@
 				9F4B3175211D8F7F00E2903C /* main.m in Sources */,
 				9F4B3182211D8FBB00E2903C /* CKSelectionTopBarCell.m in Sources */,
 				9F4B3167211D8F7E00E2903C /* AppDelegate.m in Sources */,
+				9FF199A82121885000982697 /* UIColor+CKSelectionAssist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

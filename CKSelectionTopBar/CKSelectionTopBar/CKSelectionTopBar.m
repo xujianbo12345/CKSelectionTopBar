@@ -6,8 +6,8 @@
 //
 
 #import "CKSelectionTopBar.h"
+#import "UIColor+CKSelectionAssist.h"
 #import "Masonry.h"
-#import "YYKit.h"
 #import "CKSelectionTopBarCell.h"
 
 #define kCKNormalSpace 8

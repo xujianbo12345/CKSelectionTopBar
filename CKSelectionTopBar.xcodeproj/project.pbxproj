@@ -17,6 +17,8 @@
 		9F4B3183211D8FBB00E2903C /* CKSelectionTopBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B3180211D8FBB00E2903C /* CKSelectionTopBarItem.m */; };
 		9F4B3184211D8FBB00E2903C /* CKSelectionTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4B3181211D8FBB00E2903C /* CKSelectionTopBar.m */; };
 		9FF199A82121885000982697 /* UIColor+CKSelectionAssist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF199A72121885000982697 /* UIColor+CKSelectionAssist.m */; };
+		9FF199AB212263C400982697 /* NSString+CKSelectionAssist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF199AA212263C400982697 /* NSString+CKSelectionAssist.m */; };
+		9FF199AE212264F800982697 /* NSArray+CKSelectionAssist.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FF199AD212264F800982697 /* NSArray+CKSelectionAssist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		9F4B3181211D8FBB00E2903C /* CKSelectionTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSelectionTopBar.m; sourceTree = "<group>"; };
 		9FF199A62121885000982697 /* UIColor+CKSelectionAssist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CKSelectionAssist.h"; sourceTree = "<group>"; };
 		9FF199A72121885000982697 /* UIColor+CKSelectionAssist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CKSelectionAssist.m"; sourceTree = "<group>"; };
+		9FF199A9212263C400982697 /* NSString+CKSelectionAssist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CKSelectionAssist.h"; sourceTree = "<group>"; };
+		9FF199AA212263C400982697 /* NSString+CKSelectionAssist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CKSelectionAssist.m"; sourceTree = "<group>"; };
+		9FF199AC212264F800982697 /* NSArray+CKSelectionAssist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+CKSelectionAssist.h"; sourceTree = "<group>"; };
+		9FF199AD212264F800982697 /* NSArray+CKSelectionAssist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CKSelectionAssist.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,10 @@
 				9F4B317F211D8FBB00E2903C /* CKSelectionTopBarCell.m */,
 				9F4B317E211D8FBB00E2903C /* CKSelectionTopBar.h */,
 				9F4B3181211D8FBB00E2903C /* CKSelectionTopBar.m */,
+				9FF199A9212263C400982697 /* NSString+CKSelectionAssist.h */,
+				9FF199AA212263C400982697 /* NSString+CKSelectionAssist.m */,
+				9FF199AC212264F800982697 /* NSArray+CKSelectionAssist.h */,
+				9FF199AD212264F800982697 /* NSArray+CKSelectionAssist.m */,
 			);
 			path = CKSelectionTopBar;
 			sourceTree = "<group>";
@@ -173,7 +183,9 @@
 				9F4B316A211D8F7E00E2903C /* ViewController.m in Sources */,
 				9F4B3183211D8FBB00E2903C /* CKSelectionTopBarItem.m in Sources */,
 				9F4B3175211D8F7F00E2903C /* main.m in Sources */,
+				9FF199AE212264F800982697 /* NSArray+CKSelectionAssist.m in Sources */,
 				9F4B3182211D8FBB00E2903C /* CKSelectionTopBarCell.m in Sources */,
+				9FF199AB212263C400982697 /* NSString+CKSelectionAssist.m in Sources */,
 				9F4B3167211D8F7E00E2903C /* AppDelegate.m in Sources */,
 				9FF199A82121885000982697 /* UIColor+CKSelectionAssist.m in Sources */,
 			);

@@ -53,7 +53,9 @@
     [UIView animateWithDuration:0.25 animations:^{
         if (selected) {
             self.button.selected = YES;
-            
+            if (self.item.selectedFont) {
+                self.button.titleLabel.font = self.item.selectedFont;
+            }
             if (self.item.selectedBorderColor) {
                 UIColor * borderColor = self.item.selectedBorderColor;
                 UIColor * backgroundColor = [UIColor whiteColor];
@@ -74,6 +76,7 @@
                 self.button.transform = CGAffineTransformIdentity;
             }
         } else {
+            self.button.titleLabel.font = self.item.font;
             self.button.transform = CGAffineTransformIdentity;
             self.button.selected = NO;
             self.button.layer.borderColor = [UIColor clearColor].CGColor;

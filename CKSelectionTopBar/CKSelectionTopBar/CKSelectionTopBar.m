@@ -46,6 +46,7 @@
 - (void)defaultInit {
     
     _font = [UIFont systemFontOfSize:14.0f];
+    _selectedFont = [UIFont systemFontOfSize:14.0f];
     _normalColor = [UIColor colorWithHexString:@"#333333"];
     _nightColor = [UIColor colorWithHexString:@"9b9b9b"];
     _selectedColor = [UIColor colorWithHexString:@"#2e9fff"];
@@ -135,6 +136,7 @@
         item.width = ([title sizeForFont:_font size:CGSizeMake(MAXFLOAT, kCKTopBarHeight - 2 * kCKNormalSpace) mode:NSLineBreakByWordWrapping].width + 3.4 * kCKNormalSpace);
         totalWidth += item.width;
         item.font = _font;
+        item.selectedFont = _selectedFont;
         item.showBottomLine = _showBottomLine;
         item.selectedColor = _selectedColor;
         item.selectedNightColor = _selectedNightColor;

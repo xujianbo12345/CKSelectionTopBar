@@ -16,6 +16,8 @@
 
 @property (nonatomic, strong) UIFont * font;   //字体大小
 
+@property (nonatomic, strong) UIFont * selectedFont; //选中字体大小（默认用font）
+
 @property (nonatomic, strong) UIColor * normalColor;  //正常状态颜色
 
 @property (nonatomic, strong) UIColor * nightColor;  //夜间状态颜色
